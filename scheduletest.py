@@ -5,9 +5,9 @@ import argparse
 
 def twitter_connection():
 	CONSUMER_TOKEN='QxsBNX9XCiQpYqpRhnVPWQNu2'
-	CONSUMER_SECRET='2PbOTS5Gf9XWuMiRiuVIl1MENV2zYFKGz4WlI5oKxVk38NjfLA'
+	CONSUMER_SECRET='3PbOTS5Gf9XWuMiRiuVIl1MENV2zYFKGz4WlI5oKxVk38NjfLA' #2
 	auth = tweepy.OAuthHandler(CONSUMER_TOKEN, CONSUMER_SECRET)
-	auth.set_access_token('4149279015-3PxStqBNBP9qHnmmNn4A4TWYxA0wv7eEkAJJeHt','NZpfF3mO0CLW2CqlPY4fXzwqhWPoWGSBkRDoMLqTIqIvw')
+	auth.set_access_token('4149279015-3PxStqBNBP9qHnmmNn4A4TWYxA0wv7eEkAJJeHt','NXpfF3mO0CLW2CqlPY4fXzwqhWPoWGSBkRDoMLqTIqIvw')#NZ
 	api = tweepy.API(auth)
 	return api
 
